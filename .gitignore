@@ -1,0 +1,81 @@
+# macOS
+# -----------------------------------------------------------------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# アイコン\rやカスタムアイコン関連
+Icon
+
+# SpotlightやTime Machine関連
+.Spotlight-V100
+.DocumentRevisions-V100
+.fseventsd
+.Trashes
+.TemporaryItems
+.VolumeIcon.icns
+.com.apple.timemachine.supported
+
+# Thumbs.db (Windowsサムネイルキャッシュ)
+Thumbs.db
+ehthumbs.db
+
+# vim / Emacs
+# -----------------------------------------------------------------------------
+# スワップファイル
+*.swp
+*.swo
+*~
+.*.swp
+
+# バックアップファイル
+*.bak
+*~
+
+# Emacs
+#*#
+.#*
+
+# IDE / Editor specific
+# -----------------------------------------------------------------------------
+# VSCode
+.vscode/
+
+# JetBrains (IntelliJ, PyCharm, etc.)
+.idea/
+
+# Common build outputs
+# -----------------------------------------------------------------------------
+build/
+dist/
+out/
+target/
+
+# Dependency directories
+# -----------------------------------------------------------------------------
+node_modules/
+vendor/
+bower_components/
+
+# Log files
+# -----------------------------------------------------------------------------
+*.log
+logs/
+
+# Archives
+# -----------------------------------------------------------------------------
+*.zip
+*.tar
+*.gz
+*.rar
+
+# Environment variables
+# -----------------------------------------------------------------------------
+.env
+.env.*
+!.env.example
+
+# OS generated files
+# -----------------------------------------------------------------------------
+.npm/
+.node_repl_history
